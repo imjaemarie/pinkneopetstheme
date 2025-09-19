@@ -1,0 +1,117 @@
+When finished editing, run through a css minimizer and then replace the CSS between the GM.addStyle(""); in the userscript.
+
+GM.addStyle("YOUR NEW MINIFIED CSS HERE");
+
+Make sure old CSS is deleted.
+
+
+/* ... */
+/* ..Gen.. */
+/* ..Hidden.. */
+#header > table > tbody > tr:nth-child(1) > td:nth-child(1) > a > img {visibility:hidden;}
+/* ..Links.. */
+/* ..Background & Body Font Color.. */
+#container__2020,.hp-bg-obj__2020,.hp-bg-top__2020,.hp-bg-mid__2020,.hp-bg-bottom__2020, #nl-instream-video::before {background:transparent!important;}
+body#neobdy,.contentModuleContent,.quickLinks__2020,.container p.bold__2020, .container fieldset legend, .container form, #boardTopic{background-color:#ffffff !important;color:#4d4d4d!important;}
+body{color:#4dd4d4d!important;background: #ffc2db url('https://i.ppxl.cc/np/pnbgp.png')!important;}
+/* ..Default Button.. */
+.button-yellow__2020{background: #ffe7ed!important;background: -webkit-linear-gradient(#ffe7ed, #ff7fb1)!important;background: -moz-linear-gradient(#ffe7ed,#ff7fb1)!important;background: linear-gradient(#ffe7ed, #ff7fb1)!important;-webkit-box-shadow: inset 0 0 0 1px rgba(255, 194, 219, 1), inset 0 -3px 2px 3px rgba(255, 127, 177, 1), inset 0 2px 0 1px rgba(255, 231, 237, 1), 0 0 0 2px rgba(0, 0, 0, 1)!important;-moz-box-shadow: inset 0 0 0 1px rgba(255, 194, 219,1), /* Same as top of gradient */ inset 0 -3px 2px 3px rgba(255, 127, 177,1), /* Bottom Shadow */ inset 0 2px 0 1px rgba(255, 231, 237,1), /* Top Shine */ 0 0 0 2px rgba(0,0,0,1)!important;box-shadow: inset 0 0 0 1px rgba(255, 231, 237, 1), inset 0 -3px 2px 3px rgba(255, 127, 177, 1), inset 0 2px 0 1px rgba(255, 194, 219, 1), 0 0 0 2px rgba(0, 0, 0, 1)!important;}
+.button-yellow__2020:hover, .button-yellow__2020:focus, a:focus > .button-yellow__2020{background: #ffe7ed!important;background: -webkit-linear-gradient(#ff7fb1,#ffe7ed )!important;background: -moz-linear-gradient(#ff7fb1,#ffe7ed)!important;background: linear-gradient(#ff7fb1,#ffe7ed)!important;-webkit-box-shadow: inset 0 0 0 1px rgba(255, 127, 177,1), /* Same as top of gradient */inset 0 -3px 2px 3px rgba(255, 127, 177,1), /* Bottom Shadow */inset 0 2px 0 1px rgba(255,255,243,1), /* Top Shine */0 0 0 2px rgba(0,0,0,1)!important;-moz-box-shadow: inset 0 0 0 1px rgba(255, 127, 177,1), /* Same as top of gradient */inset 0 -3px 2px 3px rgba(255, 127, 177,1), /* Bottom Shadow */inset 0 2px 0 1px rgba(255,255,243,1), /* Top Shine */0 0 0 2px rgba(0,0,0,1)!important;box-shadow: inset 0 0 0 1px rgba(255, 127, 177,1), /* Same as top of gradient */inset 0 -3px 2px 3px rgba(255, 127, 177,1), /* Bottom Shadow */inset 0 2px 0 1px rgba(255,255,243,1), /* Top Shine */0 0 0 2px rgba(0,0,0,1)!important;}
+.button-yellow__2020:active{background: #FE5D9F!important;background: -webkit-linear-gradient(#ff7fb1,#ffe7ed )!important;background: -moz-linear-gradient(#ff7fb1,#ffe7ed)!important;background: linear-gradient(#ff7fb1,#ffe7ed)!important;-webkit-box-shadow: inset 0 0 0 1px rgba(255, 127, 177,1), /* Same as top of gradient */inset 0 -3px 2px 3px rgba(254, 93, 159,1), /* Bottom Shadow */inset 0 2px 0 1px rgba(255,255,243,1), /* Top Shine */0 0 0 2px rgba(0,0,0,1)!important;-moz-box-shadow: inset 0 0 0 1px rgba(255, 127, 177,1), /* Same as top of gradient */inset 0 -3px 2px 3px rgba(254, 93, 159,1), /* Bottom Shadow */inset 0 2px 0 1px rgba(255,255,243,1), /* Top Shine */0 0 0 2px rgba(0,0,0,1)!important;box-shadow: inset 0 0 0 1px rgba(255, 127, 177,1), /* Same as top of gradient */inset 0 -3px 2px 3px rgba(254, 93, 159,1), /* Bottom Shadow */inset 0 2px 0 1px rgba(255,255,243,1), /* Top Shine */0 0 0 2px rgba(0,0,0,1)!important;}
+/* ... */
+
+/* ... */
+/* ..Headers and Footers.. */
+/* ..New.. */
+.nav-logo__2020 {background:url('https://i.ppxl.cc/np/gnnpl.png')center center no-repeat!important;background-size:100%!important;}
+.nav-top-pattern__2020,.footer-pattern__2020 {background:url('https://i.ppxl.cc/np/xsnnp.png') -15px round!important;background-size: 151px 88px!important;} 
+.nav-top__2020 {background: #ffc2db!important;border-bottom: 3px solid #fe5d9f!important;}
+.footer__2020 {background: #ffc2db!important;border-top: 3px solid #fe5d9f!important;}
+.nav-top-nst {background-color: #ffe7ed!important; border: 2px solid #fe5d9f!important;}
+.nav-dropdown__2020 {background-color: #ffe7ed!important; color: #4d4d4d!important; border: 2px solid #fe5d9f!important;}
+.nav-dropdown__2020 ul li, .nav-dropdown__2020.community-dropdown .neofriendsOnline, .nav-profile-dropdown__2020 ul li, .nav-profile-dropdown-clock__2020{ border-bottom: 2px solid #fe5d9f!important;}
+.nav-profile-dropdown__2020 .profile-dropdown-subsection { background-color: #ffc2db!important;}
+.nav-dropdown__2020.shop-dropdown .shopdropdown-tab-active { background-color: #ffe7ed!important;}
+.nav-dropdown__2020.shop-dropdown .shopdropdown-tabs,.bookmark-dropdown-header__2020 {border:transparent;background-color: #fe5d9f!important;}
+.nav-dropdown__2020 ul li:hover,#content > table > tbody > tr > td.content > div:nth-child(2) > table, .nav-dropdown__2020 ul li:hover {background:#ffc2db!important;}
+/* ..Old.. */
+#header > table > tbody > tr:nth-child(1) > td:nth-child(1) > a{display:block;height:77px;width:156px;background:url('https://i.ppxl.cc/np/gnnpl.png') center no-repeat!important;background-size:146px 62px!important;}
+#ban, #header, #footer {background: #ffc2db url('https://i.ppxl.cc/np/xsnnp.png') -15px -15px round!important;background-size: 121px 58px!important;border: 0!important;}
+/* ... */
+
+/* ... */
+/* ..Body.. */
+/* ..Gen.. */
+#content > table > tbody > tr > td.content > div:nth-child(2) > table {background:#ffc2db!important;}
+.contentModuleHeaderAlt,.sidebarHeader.medText,#boardIndex h3,.questlog-container .questlog-tabs .ql-notif, .questlog-container .questlog-groups .ql-notif,#content > table > tbody > tr > td.content > div:nth-child(2) > form:nth-child(8) > table > tbody > tr:first-child,#content > table > tbody > tr > td.content > div:nth-child(2) > form:nth-child(8) > table > tbody > tr:last-child,#content > table > tbody > tr > td.content > center > table > tbody > tr:first-child td,#content > table > tbody > tr > td.content > div:nth-child(2) > table > tbody > tr > td > table > tbody > tr:first-child > td {color:#fe5d9f!important;background-color:#ffc2db!important;}
+
+/* ..bold/link text.. */
+#container__2020 a,div#content td.content a,div#content td.sidebar a,.user.medText a, #boardIndex ul li .boardDesc a,#boardIndex ul li h4,.nav-profile-dropdown-text a,div.nf-contest a,#QuestLogContent > div.questlog-tabs > div.questlog-tab,.questlog-container .questlog-body .questlog-top .questlog-groups,#boardList ul li a,.premiumBoardButton a, #container__2020 .games-grid h4,div.petcentral-container a,div.nf-newsfeed-container a,div.nf-spotlight-container a,.questlog-container .questlog-tabs .ql-notif, .questlog-container .questlog-groups .ql-notif,#boardList ul .pageNav .boardPageButton, #boardTopic .pageNav .boardPageButton, .quickLinks__2020 h4,.eventIcon b {color: #fe5d9f!important;}
+/* ..bold/link text hover.. */
+#container__2020 .games-grid:hover h4,div.petcentral-container a:hover,div.nf-newsfeed-container a:hover,div.nf-spotlight-container a:hover,div#content td.content a:hover,div#content td.sidebar a:hover,.user.medText a:hover, ul.dropdown a:hover, #boardIndex ul li h4:hover, #boardIndex ul li p a:hover, #boardList .breadcrumbs a:hover, #boardTopic .breadcrumbs a:hover, #boardList ul li .last a:hover, #boardList ul li .last-mobile a:hover, #boardList ul li .author-mobile a:hover, #boardTopic ul li .boardPostByline a:hover, #boardTopic ul .topicNavTop .topicCreator:hover, .boardPostMessage a:hover, #boardList ul li .boardTopicTitle:hover, #boardIndex ul li .premiumBoardButton a:hover ,#boardIndex ul li .boardDesc a:hover, #boardIndex ul li h4:hover,.nav-profile-dropdown-text a:hover,#container__2020 a:hover, .quickLinks__2020 h4:hover,#boardIndex ul li h4:hover, #boardIndex ul li p a:hover, #boardList .breadcrumbs a:hover, #boardTopic .breadcrumbs a:hover, #boardList ul li .last a:hover, #boardList ul li .last-mobile a:hover, #boardList ul li .author-mobile a:hover, #boardTopic ul li .boardPostByline a:hover, #boardTopic ul .topicNavTop .topicCreator:hover, .boardPostMessage a:hover, #boardList ul li .boardTopicTitle:hover, #boardIndex ul li .premiumBoardButton a:hover {color:#ff7fb1!important;}
+/* ... */
+/* ..Old.. */
+/* ..Old Layout.. */
+#main, .main_theme {border-left: 2px solid #fe5d9f!important;border-right: 2px solid #fe5d9f!important;}
+/* ..Old Sidebar.. */
+div#content td.sidebar {background: #ffe7ed!important;}
+.sidebarModule{border: 2px solid #fe5d9f!important;}
+.sidebarTable{border: 2px solid #ffe7ed!important;}
+.sidebarHeader { border-bottom: 2px solid #fe5d9f!important;}
+/* ..Old Events.. */
+.eventIcon {color: #464646!important;}
+#header > table > tbody > tr:nth-child(1) > td.eventIcon.sf > a:nth-child(1) > img {width:0;height:0;padding: 24px 1px 1px 24px;background-image: url('https://i.ppxl.cc/np/lpns.png');background-size: cover;background-repeat: no-repeat;}
+/* ... */
+/* ..New.. */
+/* ..New Layout.. */
+.popup-header-pattern__2020, .popup-footer-pattern__2020{background: #ffc2db url('https://i.ppxl.cc/np/xsnnp.png') -15px -15px round!important;background-size: 121px 58px!important;border: 0!important;}
+.navsub-bookmark-icon__2020{background-image:url('https://i.ppxl.cc/np/nnppbi.png')!important;background-size:100%;}.bookmark-dropdown-link__2020 { border: 2px solid #ff7fb1;background: #ffe7ed;-webkit-box-shadow: 0px 3px 0px 0px rgba(255, 127, 177,1);-moz-box-shadow: 0px 3px 0px 0px rgba(255, 127, 177,1);box-shadow: 0px 3px 0px 0px rgba(255, 127, 177,1);}
+.bookmark-dropdown-link__2020:hover,.bookmark-dropdown-link__2020:active {background-color: #ff7fb1!important;}
+.bookmark-dropdown-tail__2020,.dropdown-triangle-up__2020 {border-bottom: 13px solid #fe5d9f!important;}
+.bookmark-dropdown-content__2020{ background-color: #ffe7ed!important;}
+.bookmark-dropdown-header__2020 {border:transparent;background-color: #fe5d9f!important;}
+/* ..New Homepage.. */
+.hp-slick__2020 .slick-prev {background-image: url('https://i.ppxl.cc/np/ppcanp.png');left: 5px;}
+.hp-slick__2020 .slick-next {background-image: url('https://i.ppxl.cc/np/npcanp.png');right: 5px;}
+/* ..New Sidebar.. */
+#navProfilePetExpandIcon__2020{background-color: #ff7fb1!important;}
+.nav-profile-dropdown__2020 {background: #ffe7ed!important;}
+.nav-profile-pet-box-sm__2020 {  border: 2px solid #ff7fb1!important; -webkit-box-shadow: 0px 3px 0px 0px rgba(255, 127, 177,1)!important; -moz-box-shadow: 0px 3px 0px 0px rgba(255, 127, 177,1)!important; box-shadow: 0px 3px 0px 0px rgba(255, 127, 177,1!important); }
+/* ..New Events.. */
+#navnewsdropdown__2020, .news-tab-content__2020, .alerts-tab-content__2020, .tabActive__2020, .news-tab-viewall__2020, .alerts-tab-viewall__2020, #navquestsdropdown__2023 {background: #ffe7ed!important;}
+
+
+/* ... */
+/* ..QuestLog.. */
+/* ..New.. */
+.questlog-container .questlog-body .questlog-top.tab-3 .questlog-groups .ql-group-toggle,ul.dropdown, .nav-dropdown__2020 {background-color: #ffe7ed!important; color: #4d4d4d!important; border: 2px solid #fe5d9f!important;}
+.questlog-container .questlog-body .questlog-top.tab-3 .questlog-groups {background:#ffc2db!important;}
+.questlog-container .questlog-top.tab-3 .questlog-groups .ql-notif,.questlog-container .questlog-quest .ql-tasks .ql-task { background-color: #ffe7ed!important;}
+.questlog-container .questlog-body .questlog-top .questlog-groups{border: 2px solid #fe5d9f!important;}
+div#QuestLogBody.questlog-body{border:2em solid transparent;border-image:url('https://i.ppxl.cc/np/pqlnp.png') calc(100% / 3) fill / 70px 62px / 0 stretch;}
+.questlog-container .ql-missed-day, .questlog-container .questlog-neopass-link,.questlog-container .questlog-timer,.questlog-container .questlog-body .questlog-top .questlog-bonus-rewards,.questlog-container .questlog-quest .ql-reward, .questlog-container .questlog-quest .ql-quest-details{background-color:#FFC2DB!important;}
+.questlog-container .questlog-tabs .questlog-tab.tab-3{border:transparent;border-image:url('https://i.ppxl.cc/np/pqlnptbg.png') calc(100% / 3) fill / 20px 50px / 0 stretch;}
+#QuestLogContent > div.questlog-tabs > div.questlog-tab.tab-2::before,#QuestLogContent > div.questlog-tabs > div.questlog-tab.tab-3::before{border:transparent;border-image:url('https://i.ppxl.cc/np/pqlnptbg.png') calc(100% / 3) fill / 20px 50px / 0 stretch;}
+/* ... */
+
+/* ... */
+/* ..Neoboards.. */
+.boardNavBottom {background: #ffe7ed!important;}
+#boardList ul .pageNav .boardPageButton-active, #boardTopic .pageNav .boardPageButton-active, #boardList ul .boardNavBottom .createTopicButton a, #boardList ul .boardNavTop .createTopicButton a,.topicReplyTitle,#boardTopic .topicReplyContainer .topicReplySubmit, #boardCreateTopic .topicCreateContainer .topicCreateSubmit {border:transparent!important;background-color: #ffe7ed!important;color: #fe5d9f!important;}
+#boardList ul .pageNav .boardPageButton:hover, #boardTopic .pageNav .boardPageButton:hover,#boardTopic .topicReplyContainer .topicReplySubmit:hover, #boardCreateTopic .topicCreateContainer .topicCreateSubmit:hover{border: 1px solid #fe5d9f!important;background-color: #ffe7ed!important;color: #fe5d9f!important;}
+/* ... */
+
+
+
+
+
+
+/* ... */
+/* ..Inventory.. */
+.inv-tabs-container,.inv-tabs-container::-webkit-scrollbar-track{background-color: #ffc2db!important;}
+ul.invTabs li.invTab-selected, .invTabsCarousel .invTab-selected,.inv-tabs-container::-webkit-scrollbar-thumb{background-color: #ff7fb1!important;}
+.inv-menulinks{background: #ffe7ed!important;}
+.filtertoggle, .nptoggle, .stacktoggle{  border-image-source: url('https://i.ppxl.cc/np/invtgbg.png')!important;}
+.filtertoggle .time-icon-container.invfilter-active, .filtertoggle .az-icon-container.invfilter-active, .nptoggle .inv-nc-icon-container.invfilter-active, .nptoggle .inv-np-icon-container.invfilter-active, .stacktoggle .stack-icon-container.invfilter-active, .stacktoggle .unstack-icon-container.invfilter-active {     border-image-source: url('https://i.ppxl.cc/np/invtbbtn.png')!important;}
+.inv-title-container h1 {border-image-source:url('https://i.ppxl.cc/np/invttlh.png')!important;}
+
