@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Neo Styling
 // @namespace    http://pnkpxls.net/
-// @version      2025-09-18
+// @version      2025-09-19
 // @description  make neo pink
 // @author       You
 // @icon         https://i.ppxl.cc/np/pns.png
