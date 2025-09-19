@@ -6,6 +6,7 @@
 // @author       You
 // @icon         https://i.ppxl.cc/np/pns.png
 // @match        https://*.neopets.com/*
+// @exclude      https://www.neopets.com/userlookup.phtml?user=*
 // @grant        GM.addStyle
 // ==/UserScript==
 
