@@ -11,8 +11,8 @@
 // @exclude      https://www.neopets.com/gallery/index.phtml?gu=*
 // @exclude      https://www.neopets.com/browseshop.phtml?owner=*
 // @exclude      https://www.neopets.com/~*
+// @exclude      https://www.neopets.com/petlookup.phtml
 // @grant        GM.addStyle
-// @run-at       document-start
 // ==/UserScript==
 
 
